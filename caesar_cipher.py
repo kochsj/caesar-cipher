@@ -40,17 +40,9 @@ if __name__ == "__main__":
     string_2 = "Relationships. Passion. Commitment. For Foushée, every client relationship is a long term commitment. We go beyond contractual obligations to help you succeed with your construction project. The difference since 1977: dedication and creative solutions. Our clients are many and diverse. Most of our volume is from repeat clients with needs from new construction to renovation. Taking care of your construction needs while you take care of your business."
     string = "“I hope that in this year to come, you make mistakes. Because if you are making mistakes, then you are making new things, trying new things, learning, living, pushing yourself, changing yourself, changing your world. You’re doing things you’ve never done before, and more importantly, you’re doing something.”"
     encrypted_string = encrypt(string, random.randint(1, len(alphabet)))
-    encrypted_string2 = encrypt(string_2, random.randint(1, len(alphabet)))
     decrypted_string = decrypt(encrypted_string)
-    what_could_it_be = 'anujcrxwbqryb. yjbbrxw. lxvvrcvnwc. oxa oxdbqén, nenah lurnwc anujcrxwbqry rb j uxwp cnav lxvvrcvnwc. fn px knhxwm lxwcajlcdju xkurpjcrxwb cx qnuy hxd bdllnnm frcq hxda lxwbcadlcrxw yaxsnlc. cqn mroonanwln brwln 1977: mnmrljcrxw jwm lanjcren bxudcrxwb. xda lurnwcb jan vjwh jwm mrenabn. vxbc xo xda exudvn rb oaxv anynjc lurnwcb frcq wnnmb oaxv wnf lxwbcadlcrxw cx anwxejcrxw. cjtrwp ljan xo hxda lxwbcadlcrxw wnnmb fqrun hxd cjtn ljan xo hxda kdbrwnbb.'
-    decrypted_string2 = decrypt(what_could_it_be)
-    # print('original string: ', string)
-    # print('')
-    # print('encrypted: \n', encrypted_string)
+    print('original string: ', string)
     print('')
-    print('')
-    print('What could it be?? ')
-    print(encrypted_string2)
-    print('')
-    print('decrypted: ', decrypted_string2)
+    print('encrypted: \n', encrypted_string)
+    print('decrypted: ', decrypted_string)
         
